@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome" />
+
+    <EditText
+        android:id="@+id/activo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_alignParentStart="true"
+        android:hint="Activo"
+        android:visibility="gone"/>
+
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activo"
+        android:layout_alignParentStart="true"
+        android:hint="Digite o senha"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/senha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senha"
+        android:layout_alignParentStart="true"
+        android:hint="Confirme a senha"
+        android:inputType="textPassword" />
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:prompt="@string/selecionar_statu"
+        android:layout_below="@+id/senha1"
+        android:layout_alignParentStart="true"/>
+
+
+
+</RelativeLayout>

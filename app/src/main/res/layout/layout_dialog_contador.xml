@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/nrcontador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o numero do contador" />
+
+    <Spinner
+        android:id="@+id/cliente"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:prompt="@string/selecionar_statu"
+        android:layout_below="@+id/nrcontador"
+        android:layout_alignParentStart="true"/>
+
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:prompt="@string/selecionar_statu"
+        android:layout_below="@+id/cliente"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

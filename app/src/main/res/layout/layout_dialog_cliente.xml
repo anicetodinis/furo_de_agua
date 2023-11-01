@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome" />
+
+    <EditText
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o endereco"
+        android:layout_below="@+id/nome"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o telefone"
+        android:layout_below="@+id/endereco"
+        android:layout_alignParentStart="true"/>
+
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:prompt="@string/selecionar_statu"
+        android:layout_below="@+id/telefone"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

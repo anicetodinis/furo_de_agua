@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestao de Furo de Agua</string>
+    <string name="adicionar_users">Adicionar Users</string>
+    <string name="meus_dados">Meus dados</string>
+    <string name="inicio">Inicio</string>
+    <string name="opcoes_avancadas">Opcoes Avancadas</string>
+    <string name="lixo">Lixo</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Definicoes</string>
+    <string name="definicoes">Definicoes</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="selecionar_status">Selecione o status</string>
+    <string name="selecionar_statu">Selecione o status</string>
+</resources>
